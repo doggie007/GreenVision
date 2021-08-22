@@ -5,7 +5,7 @@ numpy==1.21.2
 Pillow==8.3.1
 pytz==2021.1
 sqlparse==0.4.1
-torch==1.9.0
-torchvision==0.10.0
+torch==1.9.0+cpu
+torchvision==0.10.0+cpu
 typing-extensions==3.10.0.0
 whitenoise==5.3.0
