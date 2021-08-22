@@ -1,0 +1,17 @@
+{% extends 'greenvision/base.html' %}
+{% block content %}
+
+
+
+<div class="columns is-mobile is-centered">
+  <div class="column is-three-quarters">
+    <h1 class="is-size-2">Thanks for using green vision!!!</h1>
+    <p class="is-size-4">We predict the image contains {{request.session.prediction}}.</p>
+    <a href={% url 'index' %} class="button">Try another photo!</a>
+  </div>
+
+</div>
+
+{% endblock content %}
+
+
